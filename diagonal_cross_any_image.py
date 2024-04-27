@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 
 def main():
-    with Image.open('input_images/img6.jpg') as imp_img:
+    with Image.open('img6.jpg') as imp_img:
         gray_image = imp_img.convert("L")
         gray_image.show()
         gray_image_array = np.array(gray_image)
